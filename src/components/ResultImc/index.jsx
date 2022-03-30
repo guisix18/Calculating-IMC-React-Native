@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 
-const ResultImc = ({ props }) => {
+const ResultImc = ({ resultImc, resultImcMessage }) => {
     return (
         <View>
-            <Text>{props.resultImc}</Text>
-            <Text>{props.resultImcMessage}</Text>
+            <Text>{resultImcMessage}</Text>
+            <Text>{resultImc}</Text>
         </View>
     )
 }
